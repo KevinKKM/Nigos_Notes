@@ -48,3 +48,14 @@ The Nagios Process will send the message to Nagios UI and the plugins will monit
 Mostly, the Nagios will monitor all the process, and send the data to the UI, it can monitor the localhost too
 The Nagios will using the check_nrpe to the remote process(NRPE)<BR>
 then, the NRPE will check everything on the target machine, and replace the information to the original tools<BR>
+
+
+
+<B>Configure</B>
+
+mostly, the command inside the commands.cfg
+
+(in /usr/local/nagios/etc/objects/)
+
+Then, if you deal with linux, you can add something on nrpe.cfg, you can configure everything in that file
+
